@@ -1,6 +1,6 @@
-# Maximizing Your Efficiency in Tangerine - Lookup
+# Maximizing your efficiency in Tangerine — lookup
 
-Lookup is feature in Tangerine that makes it simple to execute commands, open files and quick jump to nodes, components, animations, markers and frames. In this article we’ll discuss how to use some of the Lookup menu items.
+Lookup is a Tangerine feature that makes it simple to execute commands, open files and quick jump to nodes, components, animations, markers and frames.
 
 ## Instructions
 
