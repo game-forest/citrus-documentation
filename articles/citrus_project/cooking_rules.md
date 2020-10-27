@@ -44,6 +44,8 @@ rule_name: one of
     'WrapMode'
     'MinFilter'
     'MagFilter'
+    'AtlasItemPadding'
+    'MaxAtlasSize'
 ```
 
 e.g.:
@@ -78,6 +80,8 @@ There's a list of default targets, which are Win, Mac, iOS and Android. Other ta
 'WrapMode'
 'MinFilter'
 'MagFilter'
+'AtlasItemPadding'
+'MaxAtlasSize'
 
 | rule                     | values              | description  |
 | ------------------------ | ------------------- | ------------ |
@@ -114,4 +118,6 @@ There's a list of default targets, which are Win, Mac, iOS and Android. Other ta
 |                          | `Nearest`           |
 | `MagFilter`              | `Linear`            | texture mag filter, default is `Linear`
 |                          | `Nearest`           |
+| `AtlasItemPadding`       | int                 | Pixel border width around atlas item. Default value is `1`. e.g. when it's `1` there'll be at least `2` pixels between items.
+| `MaxAtlasSize`           | int                 | Max size of texture atlas. Default value is `2048`.
 
