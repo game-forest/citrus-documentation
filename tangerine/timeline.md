@@ -18,7 +18,7 @@
 * ![SlowMode](images/icons/timeline/slow_motion_mode.png) **Slow motion mode** `~` - режим замедления времени, замедляется на x0.10 раз
 * **Col: N** - индикатор текущего столбца
 * ![ExitCont](images/icons/timeline/exit_container.png) **Exit current container** `Backspace` - выходит из текущего контейнера
-* ![LockAni](images/icons/timeline/animation_enabled.png) **Lock animation** - блокирует проигрывание анимации для выбранного виджета
+* ![LockAni](images/icons/timeline/animation_enabled.png) **Lock animation** - включает/выключает анимирование нода, причем для всех анимаций. Зеленый цвет – все аниматоры enabled, серый – все disabled, синий – часть так, часть так (синий появляется когда например мы создаем новый аниматор (он станет enabled), а существующие – disabled).
 * ![ShowNode](images/icons/timeline/eye.png) **Show Node** - отображение виджетов на Viewport (Shown/Hidden), при клике через `Shift` изменяет параметр только для выбранных виджетов
 * ![LockNode](images/icons/timeline/lock.png) **Lock Node** - блокирует виджет, не давая вносить в него какие-либо изменения
 
