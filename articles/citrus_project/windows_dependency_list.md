@@ -2,7 +2,7 @@
 
 | Либа                      | Источник                                                     | Версия                          |
 | ------------------------- | ------------------------------------------------------------ | ------------------------------- |
-| SharpVulkan               | Из исходников Citrus\3rdParty                                | **???**                         |
+| SharpVulkan               | Из исходников Citrus\3rdParty / https://github.com/jwollen/SharpVulkan                                | **???**                         |
 | ShaderCompilerBinding.Win | Из исходников Citrus\3rdParty                                | **???**                         |
 | ShaderCompiler            | Из исходников Citrus\3rdParty                                | **???**                         |
 | OpenAL                    | (openal.org)[http://openal.org/downloads/]                   | (6.14.357.24)? по размеру файла |
