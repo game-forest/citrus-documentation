@@ -60,7 +60,7 @@
     "fileMetadataFiles": [],
     "template": [
       "default",
-      "templates/material"
+      "templates/darkfx"
     ],
     "postProcessors": [ "ExtractSearchIndex" ],
     "globalMetadata": {

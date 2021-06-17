@@ -1,4 +1,4 @@
-# Citrus Engine
+![](images/splash.png)
 
 - **[Engine articles](articles/intro.md)**
 
