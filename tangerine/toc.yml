@@ -1,5 +1,7 @@
 - name: Tangerine
   href: intro.md
+- name: Tips & Tricks
+  href: tips/toc.yml
 - name: Node
   href: node/toc.yml
   topicHref: node/node.md
