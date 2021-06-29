@@ -8,3 +8,5 @@
   href: tangerine_font_configuration.md
 - name: Tangerine scene tree
   href: tangerine_scene_tree.md
+- name: Dependencies
+  href: windows_dependency_list.md
