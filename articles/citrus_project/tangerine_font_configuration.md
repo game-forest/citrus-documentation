@@ -86,3 +86,11 @@ Supported font formats are those that are supported by FreeType:
 - Run `Invalidate Fonts` action via Orange or Tangerine (Orange -> Invalidate Fonts)
 - You'll be notified after engine finishes font generation. You should be able to see `Digits.ttf` and `Digit.png` files in `Fonts` directory
 - Unfortunately you have to restart Tangerine for changes to take place :(
+
+# Troubleshooting
+
+## I generated my font, but don't see any kind of kerning pairs from initial font
+
+This will happen when font has any kind of kerning pairs (GPOS, for example) table instead of legacy, windows-compatible ones. This can be fixed by resaving original font within font editor (fontforge) with compatible 'kern' table. This problem fully described there https://github.com/fontforge/fontforge/issues/3435
+
+
