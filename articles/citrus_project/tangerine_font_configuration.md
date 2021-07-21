@@ -64,6 +64,13 @@ Supported font formats are those that are supported by FreeType:
 - Windows FNT/FON bitmap fonts
 - Apple's TrueType GX fonts are supported as normal TTFs (the advanced tables are ignored)
 
+## The 'kern' table
+
+Only old, windows-only-compatible 'kern' table is supported. If your font have "new" 'kern' table - extracting kerning pairs won't work. You should resave font, forcing old 'kern' table in any font editor (for example - FontForge).
+
+More info info about 'kern' table can be found here https://developer.apple.com/fonts/TrueType-Reference-Manual/RM06/Chap6kern.html
+Info about resaving font can be found here https://github.com/fontforge/fontforge/issues/3435
+
 # How to generate font
 
 - Place a font file inside `Fonts` directory (e.g. Digits.ttf)
