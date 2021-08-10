@@ -1,0 +1,8 @@
+- name: Windows dependency list
+  href: windows_dependency_list.md
+- name: Native dependencies win64 support
+  href: native_dependencies_win64_support.md
+- name: Building HarfBuzz
+  href: building_HarfBuzz.md
+- name: Building FreeType
+  href: building_FreeType.md
