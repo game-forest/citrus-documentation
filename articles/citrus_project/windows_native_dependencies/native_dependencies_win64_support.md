@@ -18,6 +18,12 @@
 
 Источник: исходный код в [Citrus\Lemon](https://gitlab.game-forest.com:8888/Common/Citrus/-/tree/master/Lemon) 
 
+Включает в себя 
+
+- Theora https://www.theora.org/
+- Vorbis and Tremor https://xiph.org/vorbis/
+- yuv2rgb http://wss.co.uk/pinknoise/yuv2rgb/
+
 Используется при взаимодействии с `.ogg` `.ogv` `.oga` `.ogx` `.spx` `.opus` `.ogm` файлами.
 
 Список изменений: 
@@ -29,6 +35,13 @@
 ## ShaderCompiler
 
 Источник: исходный код в [Citrus\3rdParty](https://gitlab.game-forest.com:8888/Common/Citrus/-/tree/master/3rdParty)
+
+Включает в себя: 
+
+- glslang https://github.com/KhronosGroup/glslang
+- SPIRV-Tools https://github.com/KhronosGroup/SPIRV-Tools
+- spirv-headers https://github.com/KhronosGroup/SPIRV-Headers.git
+- SPIRV-Cross https://github.com/KhronosGroup/SPIRV-Cross
 
 Автор: *Костя Егоров* [kegorov](kostonke@mail.ru)
 
@@ -127,6 +140,8 @@ angle_enable_null = false
 ## MFDecoder
 
 Источник: исходный код в [Citrus\3rdParty](https://gitlab.game-forest.com:8888/Common/Citrus/-/tree/master/3rdParty) 
+
+Написан на базе примеров в msdn: https://docs.microsoft.com/en-us/windows/win32/medfound/processing-media-data-with-the-source-reader
 
 Используется в `VideoPlayer`.
 
