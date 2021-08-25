@@ -2,6 +2,8 @@
   href: intro.md
 - name: Citrus project
   href: citrus_project/toc.yml
+- name: Assets
+  href: assets/toc.yml
 - name: Specifications
   href: specifications/toc.yml
 - name: Profiling
