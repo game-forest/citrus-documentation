@@ -6,6 +6,8 @@
   href: cooking_rules.md
 - name: Tangerine font configuration
   href: tangerine_font_configuration.md
+- name: Tangerine image settings
+  href: tangerine_image_settings.md
 - name: Tangerine scene tree
   href: tangerine_scene_tree.md
 - name: Dependencies
