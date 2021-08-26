@@ -8,11 +8,11 @@ Different monitors display the same colors differently. To make the image look a
 
 When creating new images in the Photoshop, check the "Color Profile" field.
 
-![Photoshop_new_image_settings](images\Photoshop_new_image_settings.png)
+![Photoshop_new_image_settings](images/Photoshop_new_image_settings.png)
 
 ## When you open an existing image in Photoshop
 
-If an image was created in another profile, in Photoshop you can convert the image to sRGB IEC 61966-2.1 color space with Edit menu command: `Edit->Assign Profile`![Photoshop_assign_profile](images\Photoshop_assign_profile.png)
+If an image was created in another profile, in Photoshop you can convert the image to sRGB IEC 61966-2.1 color space with Edit menu command: `Edit->Assign Profile`![Photoshop_assign_profile](images/Photoshop_assign_profile.png)
 
 The conversion options can be absolutely any, but the destination space is only sRGB IEC61966-2.1.
 
