@@ -22,3 +22,7 @@ If you don't have Photoshop, you can view the current color profile of an image 
 `exiftool` console utility https://exiftool.org/.
 
 To do this, use `exiftool file.png` command.
+
+---
+
+TODO: Write about XMP metadata, bpp, interlacing, palette support
