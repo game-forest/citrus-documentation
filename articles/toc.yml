@@ -6,5 +6,7 @@
   href: specifications/toc.yml
 - name: Profiling
   href: profiling/toc.yml
-- name: Productivity tools
-  href: productivity_tools/lookup/toc.yml
+- name: Tangerine
+  href: tangerine/toc.yml
+- name: Engine development
+  href: internal/toc.yml
