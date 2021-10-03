@@ -46,4 +46,4 @@
 
 ## Сцена с примерами
 
-В сцене [Particles.tan](media/Particles.tan) есть примеры использования всех описанных методов эмиссии. Нужно лишь включить нужный фрейм. Класть в ../Citrus/Samples/EmptyProject/Data и запускать из EmptyProject (работает везде, где есть Citrus)
+В сцене [Particles.tan](media/Particles.tan) есть примеры использования всех описанных методов эмиссии. Нужно лишь включить нужный фрейм. Класть в ../Citrus/Examples/EmptyProject/Data и запускать из EmptyProject (работает везде, где есть Citrus)
