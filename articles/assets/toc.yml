@@ -1,2 +1,4 @@
 - name: Tangerine image settings
   href: tangerine_image_settings.md
+- name: Validation
+  href: validation.ru.md
