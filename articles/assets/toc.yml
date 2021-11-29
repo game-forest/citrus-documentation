@@ -1,4 +1,4 @@
 - name: Tangerine image settings
   href: tangerine_image_settings.md
-- name: Validation
-  href: validation.ru.md
+- name: Configuring texture atlas
+  href: texture_atlas_configuration.md
