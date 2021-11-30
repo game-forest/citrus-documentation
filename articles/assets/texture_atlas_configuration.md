@@ -6,24 +6,55 @@ When the engine renders a scene it uses [texture filtering](https://en.wikipedia
 
 Consider this example. Surface is tiled with teal squares. Teal square is packed with other textures with zero padding. That'll introduce visual artifacts for sure:
 
-|![0px_atlas](images\uncompressed_0px_padding_atlas.png)|![seams](images\seams.png)|
-|:-:|:-:|
-|atlas|tiled surface|
+<center>
+
+|![0px_atlas](images\uncompressed_0px_padding_atlas.png)|
+|:-:|
+|atlas|
+
+|![seams](images\seams.png)|
+|:-:|
+|tiled surface|
+
+</center>
 
 However `AtlasItemPadding` set to 1 solves visual artifacts problem:
 
-|![1px_atlas](images\uncompressed_1px_padding_atlas.png)|![seams](images\noseams.png)|
-|:-:|:-:|
-|atlas|tiled surface|
+<center>
 
+|![1px_atlas](images\uncompressed_1px_padding_atlas.png)|
+|:-:|
+|atlas|
+
+|![seams](images\noseams.png)|
+|:-:|
+|tiled surface|
+
+</center>
 But this may be not enough. Texture compression can lead to texture bleeding inside atlas:
 
-|![1px_atlas](images\compressed_1px_padding_atlas.png)|![compression_seams](images\compression_seams.png)|
-|:-:|:-:|
-|atlas|tiled surface|
+<center>
+
+|![1px_atlas](images\compressed_1px_padding_atlas.png)|
+|:-:|
+|atlas|
+
+|![compression_seams](images\compression_seams.png)|
+|:-:|
+|tiled surface|
+
+</center>
 
 Correct way to solve compression bleeding is to increase value of `AtlasItemPadding` so it matches the size of compression block. For example compression block of ETC2 algorithm have 4x4 size, so in most cases 4 pixels should be enough for `AtlasItemPadding` to resolve compression bleeding problem:
 
-|![1px_atlas](images\compressed_4px_padding_atlas.png)|![compression_seams](images\noseams.png)|
-|:-:|:-:|
-|atlas|tiled surface|
+<center>
+
+|![1px_atlas](images\compressed_4px_padding_atlas.png)|
+|:-:|
+|atlas|
+
+|![compression_seams](images\noseams.png)|
+|:-:|
+|tiled surface|
+
+</center>
