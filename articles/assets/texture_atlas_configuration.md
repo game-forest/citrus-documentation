@@ -8,11 +8,11 @@ Consider this example. Surface is tiled with teal squares. Teal square is packed
 
 <center>
 
-|![0px_atlas](images\uncompressed_0px_padding_atlas.png)|
+|![0px_atlas](images/uncompressed_0px_padding_atlas.png)|
 |:-:|
 |atlas|
 
-|![seams](images\seams.png)|
+|![seams](images/seams.png)|
 |:-:|
 |tiled surface|
 
@@ -22,11 +22,11 @@ However `AtlasItemPadding` set to 1 solves visual artifacts problem:
 
 <center>
 
-|![1px_atlas](images\uncompressed_1px_padding_atlas.png)|
+|![1px_atlas](images/uncompressed_1px_padding_atlas.png)|
 |:-:|
 |atlas|
 
-|![seams](images\noseams.png)|
+|![seams](images/noseams.png)|
 |:-:|
 |tiled surface|
 
@@ -35,11 +35,11 @@ But this may be not enough. Texture compression can lead to texture bleeding ins
 
 <center>
 
-|![1px_atlas](images\compressed_1px_padding_atlas.png)|
+|![1px_atlas](images/compressed_1px_padding_atlas.png)|
 |:-:|
 |atlas|
 
-|![compression_seams](images\compression_seams.png)|
+|![compression_seams](images/compression_seams.png)|
 |:-:|
 |tiled surface|
 
@@ -49,11 +49,11 @@ Correct way to solve compression bleeding is to increase value of `AtlasItemPadd
 
 <center>
 
-|![1px_atlas](images\compressed_4px_padding_atlas.png)|
+|![1px_atlas](images/compressed_4px_padding_atlas.png)|
 |:-:|
 |atlas|
 
-|![compression_seams](images\noseams.png)|
+|![compression_seams](images/noseams.png)|
 |:-:|
 |tiled surface|
 
