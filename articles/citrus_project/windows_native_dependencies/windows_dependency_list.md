@@ -30,3 +30,4 @@
 ## All platforms, not necessarily native
 
 - Yuzu is using some code from Grisu https://github.com/kring/grisu.net
+- Lime includes adapted code from NvgSharp https://github.com/rds1983/NvgSharp
