@@ -31,3 +31,4 @@
 
 - Yuzu is using some code from Grisu https://github.com/kring/grisu.net
 - Lime includes adapted code from NvgSharp https://github.com/rds1983/NvgSharp
+- Orange uses modified version of PolyNester from https://github.com/touzov1012/poly-nest and Clipper from https://sourceforge.net/projects/polyclipping/files/
