@@ -41,3 +41,5 @@
   href: visual_hints.md
 - name: Lookup
   href: lookup.md
+- name: Orange CLI arguments and options
+  href: orange.cli.md
