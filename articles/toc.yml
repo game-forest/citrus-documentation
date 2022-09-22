@@ -8,6 +8,8 @@
   href: specifications/toc.yml
 - name: Profiling
   href: profiling/toc.yml
+- name: Orange
+  href: orange/toc.yml
 - name: Tangerine
   href: tangerine/toc.yml
 - name: Engine development
